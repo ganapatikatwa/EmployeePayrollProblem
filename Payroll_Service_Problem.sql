@@ -87,8 +87,8 @@ insert into Employee values
 
 	--4)Creating payroll Table
 create table Payroll
-(Emp_id int foreign key references Employee(Emp_id),
-	BasicPay float,                          --taking data type float because it may be in decimal value
+(Emp_id int identity(1,1) primary key,foreign key(Emp_id) references Employee(Emp_id),
+	BasicPay float,                         
 	Deduction float,
 	TaxablePay float,
 	IncomeTax float,
