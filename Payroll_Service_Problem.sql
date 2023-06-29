@@ -133,3 +133,6 @@ select Employee.Emp_name,SUM(BasicPay) as TotalSum from Employee,Payroll group b
 
 select * from Payroll;
 
+insert into employee_payroll values('Anj',54000,'02-02-2020')
+select * from employee_payroll
+

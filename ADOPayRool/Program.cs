@@ -5,7 +5,10 @@ namespace ADOPayRool
     {
         public static void Main(string[] args)
         {
-            ADOProb.CreateDatabase();
+            //ADOProb.CreateDatabase();
+            //ADOProb.CreateTable();
+            ADOProb.InsertRecord();
+            //ADOProb.RetriveData();
         }
     }
 }
