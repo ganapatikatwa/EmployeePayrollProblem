@@ -7,8 +7,8 @@ namespace ADOPayRool
         {
             //ADOProb.CreateDatabase();
             //ADOProb.CreateTable();
-            ADOProb.InsertRecord();
-            //ADOProb.RetriveData();
+            //ADOProb.InsertRecord();
+            ADOProb.RetriveData();
         }
     }
 }
